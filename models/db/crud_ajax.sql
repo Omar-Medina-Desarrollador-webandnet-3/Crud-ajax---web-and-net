@@ -2,7 +2,8 @@
 SQLyog Ultimate v12.09 (64 bit)
 MySQL - 10.1.8-MariaDB : Database - crud_aprendiz
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -36,9 +37,9 @@ insert  into `crud`(`id`,`nombre`,`apellido`,`celular`,`genero`) values (2,'Lexa
 
 /*Table structure for table `pract_consultas` */
 
-DROP TABLE IF EXISTS `pract_consultas`;
+DROP TABLE IF EXISTS `estudiantes`;
 
-CREATE TABLE `pract_consultas` (
+CREATE TABLE `estudiantes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(20) COLLATE utf8_spanish_ci NOT NULL,
   `apellido` varchar(45) COLLATE utf8_spanish_ci NOT NULL,
